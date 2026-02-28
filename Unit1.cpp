@@ -16,7 +16,7 @@ __fastcall TLoginForm::TLoginForm(TComponent* Owner)
 	: TForm(Owner)
 {
 }
-//---------------------------------------------------------------------------
+//--------------------------------------------------------------------------- dasd
 
 Korisnik::Korisnik(String _ime, String _prezime, String _email, String _lozinka, String _uloga) {
     ime = _ime;
