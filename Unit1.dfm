@@ -1,7 +1,7 @@
-object Form1: TForm1
+object LoginForm: TLoginForm
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'LoginForm'
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace
@@ -11,19 +11,37 @@ object Form1: TForm1
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
-  object Label1: TLabel
-    Left = 296
-    Top = 304
-    Width = 137
+  object TLabel: TLabel
+    Left = 113
+    Top = 195
+    Width = 32
     Height = 15
-    Caption = 'Label1'
+    Caption = 'Email:'
   end
   object Button1: TButton
-    Left = 280
-    Top = 232
+    Left = 175
+    Top = 253
     Width = 75
     Height = 25
-    Caption = 'Button1'
+    Caption = 'Prijava'
     TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 162
+    Top = 192
+    Width = 121
+    Height = 23
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 162
+    Top = 221
+    Width = 121
+    Height = 23
+    PasswordChar = #4
+    TabOrder = 2
+    Text = 'Edit2'
   end
 end
